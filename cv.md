@@ -8,11 +8,11 @@
 
 
 ## 2. Contact information
-   - Address: Russia Federation, Udmurt Republic, Sarapul
-   - Phone: +79090604636
-   - Email: aeon150791@gmail.com
-   - GitHub: [AndreyGudin](https://github.com/AndreyGudin)
-   - Discord: AndreyGudin(@andreygudin)
+   - ***Address***: Russia Federation, Udmurt Republic, Sarapul
+   - ***Phone***: +79090604636
+   - ***Email***: aeon150791@gmail.com
+   - ***GitHub***: [AndreyGudin](https://github.com/AndreyGudin)
+   - ***Discord***: AndreyGudin(@andreygudin)
 
 ## 3. Brief information about me
 My goal is to learn a new profession and find a job. I am currently working as a system administrator. I consider perseverance, love for learning new things, punctuality as my strengths.
