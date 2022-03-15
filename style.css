@@ -92,19 +92,31 @@ img{
   background-color: black;
 }
 
-.code-example{
-  background-color:#FFE8D6;
-}
-
 .work-experience,.code-example,.education,.english{
   width: 70%;
 }
 
+.code-example{
+  background-color:#FFE8D6;
+}
+
+.work-experience{
+  background-color:#B7B7A4;
+}
+
+.education{
+  background-color:#A5A58D;
+}
+
+.english{
+  background-color:#CB997E;
+}
 
 .skills{
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  background-color:#FFE8D6;
 }
 .rate-button__starhref {
   width: 20px;
