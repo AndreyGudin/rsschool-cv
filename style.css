@@ -8,6 +8,7 @@ header{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .cv-header__name{
@@ -17,8 +18,23 @@ header{
 
 .cv-header__about-me{
   font-size: 24px;
+  position: relative;
 }
 
+.cv-header__about-me::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.cv-header__about-me-text{
+  width: 400px;
+
+}
 img{
   width: 200px;
   height: 267px;
