@@ -22,7 +22,7 @@ My goal is to learn a new profession and find a job. I am currently working as a
    - JQuery( Fundamentals)
    - Version Control System : Git, GitHub
    - Module Bundler: WebPack
-   - Figma
+   - Figma, Affinity Designer, Gimp
    - Code Editors: VS Code
    - Docker, Kybernetes, CI/CD( Fundamentals)
 
