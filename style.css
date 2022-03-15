@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato',sans-serif;
+}
+
 header{
   width: 800px;
   height: 300px;
@@ -6,11 +10,22 @@ header{
   flex-wrap: wrap;
 }
 
+.cv-header__name{
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.cv-header__about-me{
+  font-size: 24px;
+}
+
 img{
   width: 200px;
   height: 267px;
   border: 10px solid black;
 }
+
+
 .rate-button__starhref {
   width: 20px;
   height: 20px;
