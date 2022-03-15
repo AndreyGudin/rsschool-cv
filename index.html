@@ -19,26 +19,50 @@
     </div>
   </header>
   <section class="cv-main">
-    <div class="contact-information">
-      <div class="contact-information__item">
-        <span class="contact-information__contact">Address</span>
-        <span class="contact-information__contact-value">Russian Federation, Udmurt Republic, Sarapul</span>
+    <div class="cv-main__section">
+      <div class="contact-information">
+        <div class="contact-information__item">
+          <span class="contact-information__contact">Address</span>
+          <span class="contact-information__contact-value">Russian Federation, Udmurt Republic, Sarapul</span>
+        </div>
+        <div class="contact-information__item">
+          <span class="contact-information__contact">Phone</span>
+          <span class="contact-information__contact-value">+79090604636</span>
+        </div>
+        <div class="contact-information__item">
+          <span class="contact-information__contact">Email</span>
+          <a class="contact-information__contact-value", href="mailto:aeon150791@gmail.com">aeon150791@gmail.com</a>
+        </div>
+        <div class="contact-information__item">
+          <span class="contact-information__contact">GitHub</span>
+          <a class="contact-information__contact-value", href="https://github.com/AndreyGudin">AndreyGudin</a>
+        </div>
+        <div class="contact-information__item">
+          <span class="contact-information__contact">Discord</span>
+          <span class="contact-information__contact-value">AndreyGudin (@andreygudin)</span>
+        </div>
       </div>
-      <div class="contact-information__item">
-        <span class="contact-information__contact">Phone</span>
-        <span class="contact-information__contact-value">+79090604636</span>
+      <div class="code-example">
+        <span class="code-example__task">Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.</span>
+        <code class="code-example__task-solution">
+          function solution(nums){
+          if (nums === null) return [];  
+          if (!(nums.length)) return [];  
+          return nums.sort((a,b)=> a-b);
+        }
+        </code>
       </div>
-      <div class="contact-information__item">
-        <span class="contact-information__contact">Email</span>
-        <a class="contact-information__contact-value", href="mailto:aeon150791@gmail.com">aeon150791@gmail.com</a>
+      <div class="work-experience">
+        <a class="work-experience__link" href="https://github.com/AndreyGudin/project-metalamp2">Hotel Site. Task 2 of Metalamp education, in process</a>
       </div>
-      <div class="contact-information__item">
-        <span class="contact-information__contact">GitHub</span>
-        <a class="contact-information__contact-value", href="https://github.com/AndreyGudin">AndreyGudin</a>
+      <div class="education">
+        <span class="education__item">Sarapul Polytechnic Institute</span>
+        <span class="education__item">FreeCodeCamp(Responsive Web Design)</span>
+        <span class="education__item">Metalamp( Second task)</span>
+        <span class="education__item">Udemy: Полный курс по JavaScript + React - с нуля до результата,Docker Mastery: with Kubernetes +Swarm from a Docker Captain,Kubernetes Mastery: Hands-On Lessons From A Docker Captain</span>
       </div>
-      <div class="contact-information__item">
-        <span class="contact-information__contact">Discord</span>
-        <span class="contact-information__contact-value">AndreyGudin (@andreygudin)</span>
+      <div class="english">
+        <a class="english__link" href="https://examinator.epam.com/Main/PersonalAssignments/323312">B1</a>
       </div>
     </div>
     <div class="skills">
@@ -343,7 +367,7 @@
         </div>
       </div>
       <div class="skills__item">      
-        <span class="skills__item-value">Figma, Affinity Designer, Gimp</span>
+        <span class="skills__item-value">Figma</span>
         <div class="rate-button">
           <div class="rate-button__star-source">
             <svg class="rate-button__star" xmlns="http://www.w3.org/2000/svg">
@@ -443,7 +467,7 @@
         </div>
       </div>
       <div class="skills_item">      
-        <span class="skills__item-value">Docker, Kybernetes, CI/CD</span>
+        <span class="skills__item-value">Docker</span>
         <div class="rate-button">
           <div class="rate-button__star-source">
             <svg class="rate-button__star" xmlns="http://www.w3.org/2000/svg">
@@ -492,28 +516,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="code-example">
-      <span class="code-example__task">Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.</span>
-      <code class="code-example__task-solution">
-        function solution(nums){
-        if (nums === null) return [];  
-        if (!(nums.length)) return [];  
-        return nums.sort((a,b)=> a-b);
-      }
-      </code>
-    </div>
-    <div class="work-experience">
-      <a class="work-experience__link" href="https://github.com/AndreyGudin/project-metalamp2">Hotel Site. Task 2 of Metalamp education, in process</a>
-    </div>
-    <div class="education">
-      <span class="education__item">Sarapul Polytechnic Institute</span>
-      <span class="education__item">FreeCodeCamp(Responsive Web Design)</span>
-      <span class="education__item">Metalamp( Second task)</span>
-      <span class="education__item">Udemy: Полный курс по JavaScript + React - с нуля до результата,Docker Mastery: with Kubernetes +Swarm from a Docker Captain,Kubernetes Mastery: Hands-On Lessons From A Docker Captain</span>
-    </div>
-    <div class="english">
-      <a class="english__link" href="https://examinator.epam.com/Main/PersonalAssignments/323312">B1</a>
     </div>
   </section>
 </body>
