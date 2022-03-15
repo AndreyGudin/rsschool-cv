@@ -488,7 +488,16 @@
         </div>
       </div>
     </div>
-    <div class="code-example"></div>
+    <div class="code-example">
+      <span class="code-example__task">Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.</span>
+      <code class="code-example__task-solution">
+        function solution(nums){
+        if (nums === null) return [];  
+        if (!(nums.length)) return [];  
+        return nums.sort((a,b)=> a-b);
+      }
+      </code>
+    </div>
     <div class="work-experience"></div>
     <div class="education"></div>
     <div class="english"></div>
