@@ -1,0 +1,34 @@
+
+.rate-button__starhref {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1px;
+  stroke: url(#gradient);
+  fill: none;
+  text-align: center;
+  cursor: pointer;
+}
+.rate-button__star-source {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.rate-button__rate-stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.rate-button__input {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  margin-left: -2px;
+}
+
+.fillgrad{
+  fill: url(#gradient);
+}
+
+
