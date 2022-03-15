@@ -9,6 +9,10 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #CB997E;
+  border: 10px solid #CB997E;
 }
 
 .cv-header__name{
