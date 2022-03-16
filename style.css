@@ -1,8 +1,19 @@
 body{
   font-family: 'Titillium Web', sans-serif;
+  width: 850px;
+  height: 1400px;
+  box-shadow: 0px 0px 13px 7px rgba(34, 60, 80, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header{
+.cv{
+  width: 800px;
+  height: 1340px;
+}
+
+.cv-header{
   width: 800px;
   height: 300px;
   display: flex;
@@ -46,7 +57,7 @@ img{
 
 .cv-main{
   width: 800px;
-  height: 1100px;
+  height: 1040px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -69,6 +80,8 @@ img{
   gap: 30px;
   background-color: #DDBEA9;
   padding: 20px 0px 0px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .contact-information__item{
@@ -119,27 +132,40 @@ img{
 
 .code-example{
   background-color:#FFE8D6;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
 .work-experience{
   background-color:#B7B7A4;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .education{
   background-color:#A5A58D;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .english{
   background-color:#CB997E;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.skills-container{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color:#FFE8D6;
 }
 
 .skills{
+  margin: auto;
   display: flex;
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
-  background-color:#FFE8D6;
 }
 
 .skills__item{
