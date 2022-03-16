@@ -9,9 +9,9 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
   background-color: #CB997E;
+  margin-bottom: 10px;
 }
 
 .cv-header__name{
@@ -41,6 +41,7 @@ header{
 img{
   width: 200px;
   height: 267px;
+  margin: 15px 0px 0px 10px;
 }
 
 .cv-main{
@@ -118,6 +119,8 @@ img{
 
 .code-example{
   background-color:#FFE8D6;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .work-experience{
@@ -138,6 +141,26 @@ img{
   flex-wrap: wrap;
   background-color:#FFE8D6;
 }
+
+.skills__item{
+  flex:0 0 33.333333%;
+}
+
+.skills__item-value{
+  font-size: 18px;
+  position: relative;
+}
+
+.skills__item-value::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 90%;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+
 .rate-button__starhref {
   width: 20px;
   height: 20px;
