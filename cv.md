@@ -53,5 +53,5 @@ function solution(nums){
 
 
 ## 8. English
-  [B1](https://examinator.epam.com/Main/PersonalAssignments/323312)
+  B1
   
