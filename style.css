@@ -1,0 +1,250 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  width: 850px;
+  height: 1400px;
+  box-shadow: 0px 0px 13px 7px rgba(34, 60, 80, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv{
+  width: 800px;
+  height: 1340px;
+}
+
+.cv-header{
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  border-radius: 10px;
+  background-color: #CB997E;
+  margin-bottom: 10px;
+}
+
+.cv-header__name{
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.cv-header__about-me{
+  font-size: 24px;
+  position: relative;
+}
+
+.cv-header__about-me::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.cv-header__about-me-text{
+  width: 400px;
+
+}
+.cv-header__photo{
+  width: 200px;
+  height: 267px;
+  margin: 15px 0px 0px 10px;
+}
+
+.cv-main{
+  width: 800px;
+  height: 1040px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv-main__section{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-information__contact-title,.title-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.svg-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.contact-information{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #DDBEA9;
+  padding: 20px 0px 0px 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+.gradient-animation{
+  background-size: 100% 0%;
+  transition: background-color .5s;
+}
+
+.gradient-animation:hover{
+  background-image:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,.7) 100%);
+  background-repeat:no-repeat;
+  background-size: 100% 100%; 
+  transition:background-size 1s, background-color 1s;
+}
+.contact-information__item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-information__contact{
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.contact-information__contact::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.block{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px 20px 10px;
+}
+
+.cv-main__title{
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+}
+
+.cv-main__title::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.big-svg-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.code-example{
+  background-color:#FFE8D6;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.work-experience{
+  background-color:#B7B7A4;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.education{
+  background-color:#A5A58D;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.english{
+  background-color:#CB997E;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.skills-container{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color:#FFE8D6;
+}
+
+.skills{
+  margin: auto;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.skills__item{
+  flex:0 0 33.333333%;
+}
+
+.skills__item-value{
+  font-size: 18px;
+  position: relative;
+}
+
+.skills__item-value::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 90%;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+
+.rate-button__starhref {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1px;
+  stroke: url(#gradient);
+  fill: none;
+  text-align: center;
+  cursor: pointer;
+}
+.rate-button__star-source {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.rate-button__rate-stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.rate-button__input {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  margin-left: -2px;
+}
+
+.fillgrad{
+  fill: url(#gradient);
+}
+
+
